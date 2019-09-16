@@ -29,10 +29,12 @@ http://calculate-things.com/percent.html
 
 
 
+````
 <p class="codepen" data-height="478" data-theme-id="37794" data-default-tab="html,result" data-user="LeoU" data-slug-hash="BaBPNRr" data-preview="true" style="height: 478px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Three-way calculator">
   <span>See the Pen <a href="https://codepen.io/LeoU/pen/BaBPNRr/">
   Three-way calculator</a> by Leo U (<a href="https://codepen.io/LeoU">@LeoU</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+````
 
