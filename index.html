@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="title-text">
+    <h2>Three-way Percentage Calculator</h2>
+    <p>Input any two values and we calculate the third.</p>
+  </div>
+
+  <div class="inputBox-area">
+    <div class="input-box" id="input-01">
+      <input type="number" name="a" id="a" class="input">
+    </div>
+    <!-- div input-01 -->
+    <div class="input-text">
+      <p><b> % of</b></p>
+    </div>
+    <!-- input text -->
+
+    <div class="input-box" id="input-02">
+      <input type="number" name="b" id="b" class="input">
+    </div>
+    <!-- div input-02 -->
+    <div class="input-box input-text">
+      <p> = </b>
+      </p>
+    </div>
+    <!-- input text -->
+
+    <div class="input-box" id="input-03">
+      <input type="number" name="c" id="c" class="input">
+    </div>
+    <!-- div input-03 -->
+
+  </div>
+  <!-- ###End of inputBox-area -->
+
+  <div class="calculate-button-area">
+
+    <button type="button" id="button-main" class="buttons" onclick="doDaMaths(document.getElementById('a').value,document.getElementById('b').value, document.getElementById('c').value)">Calculate</button>
+
+    <button type="button" id="button-clear" class="buttons" onclick="document.getElementById('a').value = '', document.getElementById('b').value = '',document.getElementById('c').value = '', document.getElementById('error-msg').innerHTML = ''">Clear</button>
+
+  </div>
+  <!-- ### End of calculate button area -->
+
+  <div class="error" id="error-msg">
+    <p></p>
+  </div>
+
+  <p>Numbers are rounded to the nearest hundredths.</p>
+
+</div>
+<!-- ###End of Container -->
+<script src="main.js"></script>
+</body>
