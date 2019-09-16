@@ -19,12 +19,11 @@ The result should. Look something like this:
 ![Image description](https://github.com/LeoUrushi/assets/blob/master/Screen_three-way-calculator_.png)
 
 
+Working example: 
+http://calculate-things.com/percent.html
 
 
 Editable code sample: 
 https://codepen.io/LeoU/pen/BaBPNRr
-
-Working example: 
-http://calculate-things.com/percent.html
 
 
